@@ -3,6 +3,11 @@
   "@id" : "https://BinkHallum.github.io/BinkTestManifest/manifests/manifest3.json",
   "@type" : "sc:Manifest",
   "label" : "Bink's manifest test",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1240244679/114300627222714347489/fb9bd5f30ad41297ad6088e7b4dd5d8c/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  },
   "metadata" : [ {
     "label" : "Collector",
     "value" : "Bink Hallum",
@@ -46,6 +51,11 @@
           "width" : 3088
         },
         "on" : "http://eb2e7462-3113-4d60-9f6d-21dcd16ccea3"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://binkhallum.github.io/BinkTestManifest/annotations/1c73194c3ef29211b961263ca38c8fed.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
       } ],
       "related" : ""
     }, {
