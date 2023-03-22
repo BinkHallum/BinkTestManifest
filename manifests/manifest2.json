@@ -1,117 +1,144 @@
 {
-  "@context" : "http://iiif.io/api/presentation/2/context.json",
-  "@id" : "https://BinkHallum.github.io/BinkTestManifest/manifests/manifest2.json",
-  "@type" : "sc:Manifest",
-  "label" : "Bink's manifest test",
-  "metadata" : [ {
-    "label" : "Collector",
-    "value" : "Bink Hallum",
-    "@language" : "en"
-  } ],
-  "description" : [ {
-    "@value" : "A random collection of photos",
-    "@language" : "en"
-  } ],
-  "license" : "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "attribution" : "Copyright Bink Hallum",
-  "sequences" : [ {
-    "@id" : "http://6c216e41-0ca0-4f97-bcf1-15795d0ce74f",
-    "@type" : "sc:Sequence",
-    "label" : [ {
-      "@value" : "Normal Sequence",
-      "@language" : "en"
-    } ],
-    "viewingHint" : "paged",
-    "canvases" : [ {
-      "@id" : "http://eb2e7462-3113-4d60-9f6d-21dcd16ccea3",
-      "@type" : "sc:Canvas",
-      "label" : "Me in Ugly Monthly",
-      "height" : 2320,
-      "width" : 3088,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://8bd33a7c-217b-4ef9-affd-b991a796ff00",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://iiif.archivelab.org/iiif/2023-03-15-21.57.12-1/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://iiif.archivelab.org/iiif/2023-03-15-21.57.12-1",
-            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
-          },
-          "height" : 2320,
-          "width" : 3088
-        },
-        "on" : "http://eb2e7462-3113-4d60-9f6d-21dcd16ccea3"
-      } ],
-      "related" : ""
-    }, {
-      "@id" : "http://775822b2-1b51-4290-97f6-704b6512696e",
-      "@type" : "sc:Canvas",
-      "label" : "Bunnies",
-      "height" : 3024,
-      "width" : 4032,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://bc34b154-7b59-4202-8334-773b11dc347c",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://iiif.archivelab.org/iiif/2023-03-18-10.03.19-1/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://iiif.archivelab.org/iiif/2023-03-18-10.03.19-1",
-            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
-          },
-          "height" : 3024,
-          "width" : 4032
-        },
-        "on" : "http://775822b2-1b51-4290-97f6-704b6512696e"
-      } ],
-      "related" : ""
-    }, {
-      "@id" : "http://6f5b49d1-9264-4c64-bdd0-7b01cac1c392",
-      "@type" : "sc:Canvas",
-      "label" : "The Good",
-      "height" : 6016,
-      "width" : 4016,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://0f792f7f-548f-4c6d-98f3-2db0497393c6",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://binkhallum.github.io/TheGood/images/ZM7360-1_TheGoodcopy/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://binkhallum.github.io/TheGood/images/ZM7360-1_TheGoodcopy",
-            "profile" : "http://iiif.io/api/image/2/level0.json"
-          },
-          "height" : 6016,
-          "width" : 4016
-        },
-        "on" : "http://6f5b49d1-9264-4c64-bdd0-7b01cac1c392"
-      } ],
-      "related" : ""
-    } ]
-  } ],
-  "structures" : [ {
-    "@id" : "http://example.org/iiif/book1/range/top",
-    "@type" : "sc:Range",
-    "label" : "Table of Content",
-    "viewingHint" : "top",
-    "ranges" : [ "http://example.org/iiif/book1/range/intro" ]
-  }, {
-    "@id" : "http://example.org/iiif/book1/range/intro",
-    "@type" : "sc:Range",
-    "label" : "Introduction",
-    "canvases" : [ "http://eb2e7462-3113-4d60-9f6d-21dcd16ccea3" ]
-  } ]
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://c40b3347-5024-46ce-ac7b-162e94f9eb36",
+	"@type": "sc:Manifest",
+	"label": "Bink's manifest test",
+	"metadata": [
+		{
+			"label": "Collector", "value": "Bink Hallum", "@language": "en"
+		}
+	],
+	"description": [
+		{
+			"@value": "A random collection of photos",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+	"attribution": "Copyright Bink Hallum",
+	"sequences": [
+		{
+			"@id": "http://6c216e41-0ca0-4f97-bcf1-15795d0ce74f",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"viewingHint": "individuals",
+			"canvases": [
+				{
+					"@id": "http://eb2e7462-3113-4d60-9f6d-21dcd16ccea3",
+					"@type": "sc:Canvas",
+					"label": "Me in Ugly Monthly",
+					"height": 2320,
+					"width": 3088,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://8bd33a7c-217b-4ef9-affd-b991a796ff00",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://iiif.archivelab.org/iiif/2023-03-15-21.57.12-1/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://iiif.archivelab.org/iiif/2023-03-15-21.57.12-1",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json"
+									]
+								},
+								"height": 2320,
+								"width": 3088
+							},
+							"on": "http://eb2e7462-3113-4d60-9f6d-21dcd16ccea3"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://775822b2-1b51-4290-97f6-704b6512696e",
+					"@type": "sc:Canvas",
+					"label": "Bunnies",
+					"height": 3024,
+					"width": 4032,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://bc34b154-7b59-4202-8334-773b11dc347c",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://iiif.archivelab.org/iiif/2023-03-18-10.03.19-1/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://iiif.archivelab.org/iiif/2023-03-18-10.03.19-1",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json"
+									]
+								},
+								"height": 3024,
+								"width": 4032
+							},
+							"on": "http://775822b2-1b51-4290-97f6-704b6512696e"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://6f5b49d1-9264-4c64-bdd0-7b01cac1c392",
+					"@type": "sc:Canvas",
+					"label": "The Good",
+					"height": 6016,
+					"width": 4016,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://0f792f7f-548f-4c6d-98f3-2db0497393c6",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://binkhallum.github.io/TheGood/images/ZM7360-1_TheGoodcopy/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://binkhallum.github.io/TheGood/images/ZM7360-1_TheGoodcopy",
+									"profile": "http://iiif.io/api/image/2/level0.json"
+								},
+								"height": 6016,
+								"width": 4016
+							},
+							"on": "http://6f5b49d1-9264-4c64-bdd0-7b01cac1c392"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": [
+		{
+			"@id": "http://example.org/iiif/book1/range/top",
+			"@type": "sc:Range",
+			"label": "Table of Content",
+			"viewingHint": "top",
+			"ranges": [
+				"http://example.org/iiif/book1/range/intro"
+			]
+		},
+		{
+			"@id": "http://example.org/iiif/book1/range/intro",
+			"@type": "sc:Range",
+			"label": "Introduction",
+			"canvases": [
+				"http://eb2e7462-3113-4d60-9f6d-21dcd16ccea3"
+			]
+		}
+	]
 }
