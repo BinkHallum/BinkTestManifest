@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://BinkHallum.github.io/BinkTestManifest/annotations/1c73194c3ef29211b961263ca38c8fed.json" ],
+  "@id" : "https://BinkHallum.github.io/BinkTestManifest/annotations/collection.json",
+  "label" : "All annotations loaded in BinkHallum/BinkTestManifest project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
