@@ -1,0 +1,13 @@
+{
+  "id" : "https://BinkHallum.github.io/BinkTestManifest/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in BinkHallum/BinkTestManifest project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://BinkHallum.github.io/BinkTestManifest/manifests/manifest2.json",
+    "label" : "Bink's manifest test"
+  } ]
+}
