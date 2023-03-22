@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://BinkHallum.github.io/BinkTestManifest/manifests/manifest2.json",
     "label" : "Bink's manifest test"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://BinkHallum.github.io/BinkTestManifest/manifests/manifest3.json",
+    "label" : "Bink's manifest test"
   } ]
 }
