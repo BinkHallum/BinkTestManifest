@@ -1,0 +1,113 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Mouth",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Mouth</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1240244679/114300627222714347489",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2023-03-22T21:58:30",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1679522310956",
+    "dcterms:modified" : "2023-03-22T22:00:42",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://BinkHallum.github.io/BinkTestManifest/manifests/manifest3.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=1526,903,359,677"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1525.6494,1580.6002h179.59889v0h179.59889v-338.58944v-338.58944h-179.59889h-179.59889v338.58944z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_6aeaaa80-acdb-4a65-8fd0-71ff0e81c061\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1.30402\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://eb2e7462-3113-4d60-9f6d-21dcd16ccea3"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Lens",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Lens</p>"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "Glasses part",
+      "@type" : "oa:Tag",
+      "chars" : "Glasses part"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1240244679/114300627222714347489",
+    "motivation" : [ "oa:commenting", "oa:tagging" ],
+    "dcterms:created" : "2023-03-22T21:59:51",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1679522391759",
+    "dcterms:modified" : "2023-03-22T22:00:55",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://BinkHallum.github.io/BinkTestManifest/manifests/manifest3.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=632,790,536,602"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M710.29835,1304.16139c49.49672,50.59732 119.31986,88.27544 189.48137,88.23042v0v0c70.16151,-0.04502 131.28395,-35.29228 189.48137,-88.23042c58.19742,-52.93814 80.81802,-133.60564 78.48575,-213.00707c-2.33227,-79.40143 -29.61741,-157.5368 -78.48575,-213.00707c-48.86834,-55.47027 -119.31986,-88.27544 -189.48137,-88.23042c-70.16151,0.04502 -140.03299,32.94021 -189.48137,88.23042c-49.44838,55.29021 -78.47367,132.97542 -78.48575,213.00707c-0.01208,80.03165 28.98903,162.40975 78.48575,213.00707z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;editable&quot;:true}\" id=\"ellipse_d1da1f7f-ccfd-4689-8b14-9dfeab291ac0\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"9.38317\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://eb2e7462-3113-4d60-9f6d-21dcd16ccea3"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Eye",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Eye</p>"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "Body part",
+      "@type" : "oa:Tag",
+      "chars" : "Body part"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1240244679/114300627222714347489",
+    "motivation" : [ "oa:commenting", "oa:tagging" ],
+    "dcterms:created" : "2023-03-22T21:58:06",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1679522286992",
+    "dcterms:modified" : "2023-03-22T22:00:29",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://BinkHallum.github.io/BinkTestManifest/manifests/manifest3.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=1040,1530,196,312"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1040.16227,1842.20984h97.84588v0h97.84588v-156.21733v-156.21733h-97.84588h-97.84588v156.21733z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_502914c4-79a4-4646-8b1d-e2cac194d411\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1.25774\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://eb2e7462-3113-4d60-9f6d-21dcd16ccea3"
+    } ]
+  } ],
+  "@id" : "https://BinkHallum.github.io/BinkTestManifest/annotations/1c73194c3ef29211b961263ca38c8fed.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
